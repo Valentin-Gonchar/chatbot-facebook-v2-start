@@ -9,8 +9,10 @@ const request = require('request');
 const app = express();
 const uuid = require('uuid');
 
+// Verify that it's working
 
-// Messenger API parameters
+
+// Messenger API parameters 
 if (!config.FB_PAGE_TOKEN) {
     throw new Error('missing FB_PAGE_TOKEN');
 }
